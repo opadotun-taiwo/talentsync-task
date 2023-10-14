@@ -28,6 +28,13 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div className="w-full h-[313px] px-[96px]">
+        <p className="h-[30px] text-[#475467] text-[20px]">
+          Join 1,500+ companies already video conferencing the ClearLink way
+        </p>
+        <Image src="/brands.png" width={1372} height={43} />
+      </div>
     </>
   );
 }

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
+import Faq from "./Components/Faq";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
             <h1 className="text-[64px] text-[#1D2939] font-[600px]">
               Uniting the world,one video call at a time
             </h1>
-            <p className="my-[20px] text-[#667085] font-normal leading-[32px]">
+            <p className="my-[20px] text-[#667085] font-normal leading-[32px] text-[24px]">
               Experience the future of communication with ClearLink <br /> where
               crystal-clear video conferencing meets unparalleled simplicity.
             </p>
@@ -35,7 +36,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center w-full h-[100px] py-[96px] my-[96px]">
+      <div className="flex flex-col justify-center items-center w-full h-[100px] py-[96px] mt-[200px] mx-[96px]">
         <p className="h-[30px] text-[#475467] text-[20px] text-center py-[60px]">
           Join 1,500+ companies already video conferencing the ClearLink way
         </p>
@@ -68,21 +69,22 @@ export default function Home() {
             <div>
               <Image src="/zap.png" width={32} height={32} />
               <h2 className="text-[#101828] my-2 font-semibold text-[24px]">
-                Crystal-clear HD video
+                Noise-canceling audio
               </h2>
               <p className="text-[#475467] text-[18px]">
-                No more pixelation or blurriness just stunning, lifelike clarity
-                that brings your team closer in meetings.
+                Say goodbye to distractions with our advanced audio tech for
+                crisp, interruption-free conversations.
               </p>
             </div>
             <div>
               <Image src="/zap3.png" width={32} height={32} />
               <h2 className="text-[#101828] my-2 font-semibold text-[24px]">
-                Crystal-clear HD video
+                Scheduling made easy
               </h2>
               <p className="text-[#475467] text-[18px]">
-                No more pixelation or blurriness just stunning, lifelike clarity
-                that brings your team closer in meetings.
+                Streamline your agenda with ClearLink's intuitive scheduling.
+                Set up meetings, send invitations, and receive reminders in one
+                place.
               </p>
             </div>
             <div>
@@ -98,11 +100,11 @@ export default function Home() {
             <div>
               <Image src="/zap4.png" width={32} height={32} />
               <h2 className="text-[#101828] my-2 font-semibold text-[24px]">
-                Crystal-clear HD video
+                Bank-grade security
               </h2>
               <p className="text-[#475467] text-[18px]">
-                No more pixelation or blurriness just stunning, lifelike clarity
-                that brings your team closer in meetings.
+                Your privacy is our priority with bank-grade security protocols
+                safeguarding your meetings and data from unwanted intruders.
               </p>
             </div>
           </div>
@@ -160,7 +162,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex items-center justify-between py-[96px] px-[160px]">
+      <div className="flex items-center justify-between py-[96px] px-[160px] gap-4">
         <div className="flex flex-col flex-1">
           <p className="text-[#175CD3]">Support</p>
           <h2 className="font-semibold text-[48px]">FAQs</h2>
@@ -172,7 +174,9 @@ export default function Home() {
             </span>
           </p>
         </div>
-        <div className="flex flex-1">yo</div>
+        <div className="flex flex-1">
+          <Faq />
+        </div>
       </div>
 
       <div className="flex items-center justify-between py-[96px] pl-[160px] gap-2">

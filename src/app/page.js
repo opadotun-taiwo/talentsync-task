@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 
 export default function Home() {
   return (
@@ -158,6 +159,45 @@ export default function Home() {
           <Image src="/Contents.png" width={640} height={490} />
         </div>
       </div>
+
+      <div className="flex items-center justify-between py-[96px] px-[160px]">
+        <div className="flex flex-col flex-1">
+          <p className="text-[#175CD3]">Support</p>
+          <h2 className="font-semibold text-[48px]">FAQs</h2>
+          <p className="text-[#667085] text-[24px]">
+            Everything you need to know about the product and billing. Can't
+            find the answer you're looking for?
+            <span className="underline decoration-1">
+              Please chat to our friendly team.
+            </span>
+          </p>
+        </div>
+        <div className="flex flex-1">yo</div>
+      </div>
+
+      <div className="flex items-center justify-between py-[96px] pl-[160px] gap-2">
+        <div className="flex flex-col flex-1">
+          <h2 className="font-semibold text-[48px] mb-[48px]">
+            Ready to clear the path to perfect communication?
+          </h2>
+          <Image src="/text1.png" width={563} height={33} />
+          <Image src="/text2.png" width={563} height={33} />
+          <Image src="/text3.png" width={563} height={33} />
+          <Image src="/text4.png" width={563} height={33} />
+          <div className="mt-[48px]">
+            <button className="rounded-[100px] bg-white mr-2 border-[1px] border-[#98A2B3] text-[#98A2B3] py-[14px] px-[24px]">
+              Talk sales
+            </button>
+            <button className="rounded-[100px] bg-[#175CD3] ml-2 border-[#98A2B3] text-white py-[14px] px-[24px]">
+              Sign up for free
+            </button>
+          </div>
+        </div>
+        <div className="flex flex-1">
+          <Image src="/mockup.png" width={1024} height={682} />
+        </div>
+      </div>
+      <Footer />
     </>
   );
 }

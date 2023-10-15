@@ -14,37 +14,37 @@ const Footer = () => {
 
         <div className='gap-8'>
           <h3 className='text-[#667085] text-[16px] font-semibold mb-3'>Product</h3>
-          <p className='text-[#475467] text-[16px]'>Overview</p>
-          <p className='text-[#475467] text-[16px]'>Features</p>
-          <p className='text-[#475467] text-[16px]'>Solution</p>
-          <p className='text-[#475467] text-[16px]'>Tutorials</p>
+          <p className='text-[#475467] text-[16px] mb-2'>Overview</p>
+          <p className='text-[#475467] text-[16px] mb-2'>Features</p>
+          <p className='text-[#475467] text-[16px] mb-2'>Solution</p>
+          <p className='text-[#475467] text-[16px] mb-2'>Tutorials</p>
           <p className='text-[#475467] text-[16px]'>Pricing</p>
         </div>
 
         <div  className='gap-8'>
           <h3 className='text-[#667085] text-[16px] font-semibold mb-3'>Company</h3>
-          <p className='text-[#475467] text-[16px]'>About us</p>
-          <p className='text-[#475467] text-[16px]'>Career</p>
-          <p className='text-[#475467] text-[16px]'>Press</p>
-          <p className='text-[#475467] text-[16px]'>News</p>
-          <p className='text-[#475467] text-[16px]'>Contact</p>
+          <p className='text-[#475467] text-[16px] mb-2'>About us</p>
+          <p className='text-[#475467] text-[16px] mb-2'>Career</p>
+          <p className='text-[#475467] text-[16px] mb-2'>Press</p>
+          <p className='text-[#475467] text-[16px] mb-2'>News</p>
+          <p className='text-[#475467] text-[16px] mb-2'>Contact</p>
         </div>
 
         <div  className='gap-8'>
           <h3 className='text-[#667085] text-[16px] font-semibold mb-3'>Resources</h3>
-          <p className='text-[#475467] text-[16px]'>Blog</p>
-          <p className='text-[#475467] text-[16px]'>Events</p>
-          <p className='text-[#475467] text-[16px]'>Help center</p>
-          <p className='text-[#475467] text-[16px]'>Tutorials</p>
+          <p className='text-[#475467] text-[16px] mb-2'>Blog</p>
+          <p className='text-[#475467] text-[16px] mb-2'>Events</p>
+          <p className='text-[#475467] text-[16px] mb-2'>Help center</p>
+          <p className='text-[#475467] text-[16px] mb-2'>Tutorials</p>
           <p className='text-[#475467] text-[16px]'>Support</p>
         </div>
 
          <div  className='gap-8'>
           <h3 className='text-[#667085] text-[16px] font-semibold mb-3'>Legal</h3>
-          <p className='text-[#475467] text-[16px]'>Terms</p>
-          <p className='text-[#475467] text-[16px]'>Privacy</p>
-          <p className='text-[#475467] text-[16px]'>Cookies</p>
-          <p className='text-[#475467] text-[16px]'>Licences</p>
+          <p className='text-[#475467] text-[16px] mb-2'>Terms</p>
+          <p className='text-[#475467] text-[16px] mb-2'>Privacy</p>
+          <p className='text-[#475467] text-[16px] mb-2'>Cookies</p>
+          <p className='text-[#475467] text-[16px] mb-2'>Licences</p>
           <p className='text-[#475467] text-[16px]'>Contact</p>
         </div>
 

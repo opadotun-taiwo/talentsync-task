@@ -69,7 +69,7 @@ export default function Home() {
             <div>
               <Image src="/zap.png" width={32} height={32} />
               <h2 className="text-[#101828] my-2 font-semibold text-[24px]">
-                Noise-canceling audio
+                Crystal-clear HD video
               </h2>
               <p className="text-[#475467] text-[18px]">
                 Say goodbye to distractions with our advanced audio tech for
@@ -90,7 +90,7 @@ export default function Home() {
             <div>
               <Image src="/zap1.png" width={32} height={32} />
               <h2 className="text-[#101828] my-2 font-semibold text-[24px]">
-                Crystal-clear HD video
+                Noise-canceling audio
               </h2>
               <p className="text-[#475467] text-[18px]">
                 No more pixelation or blurriness just stunning, lifelike clarity

@@ -36,7 +36,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col justify-center items-center w-full h-[100px] py-[96px] mt-[200px] mx-[96px]">
+      <div className="flex flex-col justify-center items-center w-full h-[100px] py-[96px] mt-[200px]">
         <p className="h-[30px] text-[#475467] text-[20px] text-center py-[60px]">
           Join 1,500+ companies already video conferencing the ClearLink way
         </p>
